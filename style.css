@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+
+}
+
+.nav-links {
+    display: flex;
+}
+
+#ul-list {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+.div-icons {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    justify-content: space-between;
+    margin-left: 50%;
+    padding-top: 20px;
+}
+
+.header-bg {
+    background-image: url(./IMAGES/img-bg.jpeg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
