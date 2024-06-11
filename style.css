@@ -2,32 +2,100 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
+
 
 }
 
 .nav-links {
     display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    background-color: white;
+
 }
 
 #ul-list {
     display: flex;
     gap: 30px;
     list-style: none;
+    text-decoration: none;
+    padding-bottom: 20px;
+    margin-bottom: 12px;
+
+
+
+}
+
+#ul {
+    text-decoration: none;
+    color: black;
+
+
 }
 
 .div-icons {
     display: flex;
-    gap: 30px;
+    gap: 20px;
     list-style: none;
-    justify-content: space-between;
-    margin-left: 50%;
+    margin-left: 2%;
+    padding-right: 20px;
     padding-top: 20px;
+
+}
+
+.icons {
+    color: black;
 }
 
 .header-bg {
-    background-image: url(./IMAGES/img-bg.jpeg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.493), rgba(0, 0, 0, 0.486)), url(./IMAGES/img-bg.jpeg);
     background-position: center;
     background-size: cover;
     height: 100vh;
+    padding: 2rem 4rem;
+}
+
+.main {
+    font-size: 10px;
+    text-align: center;
+    color: #FCDC94;
+    padding-top: 30px;
+    
+}
+
+.main h1 {
+    font-size: 50px;
+    font-family: "Alex Brush", cursive;
+
+}
+
+.main h4 {
+    font-size: 20px;
+    font-family: "Old Standard TT", serif;
+}
+
+
+#msg {
+    margin-top: 90px;
+    color: rgba(255, 255, 255, 0.623);
+    text-align: center;
+    color: rgba(255, 255, 255, 0.555);
+}
+
+.button {
+    border: 20px;
+    border-radius: 20px;
+    background: #EF9C66;
+    padding: 10px 30px;
+    
+}
+
+.button:hover {
+    background-color: white;
+}
+
+#bt {
+    text-decoration: none;
+    color: black;
+    
 }
