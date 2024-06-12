@@ -99,3 +99,58 @@ body {
     color: black;
     
 }
+
+.section-sd {
+    background-color: #FEFFD2;
+    
+}
+
+#section-cat {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.section-images {
+    display: flex;
+    gap: 20px;
+    padding-top: 40px;
+}
+
+
+.section-images img{
+    width: 100%;
+    
+}
+
+.section-images a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.div-image {
+    display: grid;
+grid-template-columns: repeat(3, 1fr);
+/* grid-template-rows: repeat(2, 1fr); */
+grid-column-gap: 20px;
+padding-left: 40px;
+padding-top: 40px;
+
+}
+
+
+
+
+.div-image img{
+    object-fit: contain;
+    width: 100%;
+    
+}
+
+.div-text {
+    text-align: center;
+}
+
+.sec {
+    background-color: #F8F9D7;
+}
