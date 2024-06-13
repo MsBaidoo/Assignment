@@ -48,7 +48,7 @@ body {
 }
 
 .header-bg {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.493), rgba(0, 0, 0, 0.486)), url(./IMAGES/img-bg.jpeg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.336), rgba(0, 0, 0, 0.329)), url(./IMAGES/img-bg.jpeg);
     background-position: center;
     background-size: cover;
     height: 100vh;
@@ -58,20 +58,24 @@ body {
 .main {
     font-size: 10px;
     text-align: center;
-    color: #FCDC94;
+    color: #fcdd94bb;
     padding-top: 30px;
     
 }
 
 .main h1 {
     font-size: 50px;
-    font-family: "Alex Brush", cursive;
+    font-family: "Ruthie", cursive;
+
+
 
 }
 
 .main h4 {
     font-size: 20px;
-    font-family: "Old Standard TT", serif;
+    font-family: "Qwitcher Grypen", cursive;
+    color: rgba(255, 255, 255, 0.596);
+    padding-bottom: 20px;
 }
 
 
@@ -85,7 +89,7 @@ body {
 .button {
     border: 20px;
     border-radius: 20px;
-    background: #EF9C66;
+    /* background: #EF9C66; */
     padding: 10px 30px;
     
 }
@@ -135,22 +139,92 @@ grid-template-columns: repeat(3, 1fr);
 grid-column-gap: 20px;
 padding-left: 40px;
 padding-top: 40px;
+margin-right: 60px;
+margin-left: 20px;
 
 }
-
-
 
 
 .div-image img{
     object-fit: contain;
     width: 100%;
-    
+   
 }
 
 .div-text {
     text-align: center;
 }
 
-.sec {
-    background-color: #F8F9D7;
+#div-flex {
+    background-color: #f6fab95d;
+    display: flex;
+    padding-top: 120px;
+    padding-left: 40px;
+}
+
+#div-flex img{
+    width: 60%;
+    margin-left: 30%;
+    background-color: #f1e5d1b4;
+ 
+    border-radius: 10%;
+     
+}
+
+
+.flex-text {
+    font-family: "Bellota", system-ui;
+    font-weight: 2rem;
+}
+
+.flex-text h1{
+    font-family: "Ubuntu Sans", sans-serif;
+    font-weight: 2rem;
+    
+}
+
+.flex-bt {
+    text-decoration: none;
+    color: black;
+}
+
+.flex-text h5{
+    color: rgba(0, 0, 0, 0.411);
+
+}
+
+.bt {
+    text-decoration: none;
+    color: black;
+    text-align: right;
+    
+}
+
+.flex-text button{
+    border: 20px;
+    border-radius: 20px;
+    background: white;
+    padding: 10px 30px;
+}
+
+.section-2 {
+    padding-top: 3rem;
+}
+
+#Collect {
+    text-align: center;
+}
+
+.images {
+    display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-template-rows: 1fr;
+grid-column-gap: 10px;
+
+}
+
+.images img{
+    width: 80%;
+    margin-right: 60px;
+    margin-left: 60px;
 }
